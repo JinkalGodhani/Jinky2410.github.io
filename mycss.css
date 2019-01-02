@@ -28,7 +28,7 @@
   height: 2px;
   width: 100%;
   border-radius: 100%;
-  background-color: rgba(0,0,0,0.3);
+  /* background-color: rgba(0,0,0,0.3); */
   bottom: -5rem;
   -webkit-filter: blur(4px);
   filter: blur(4px);
@@ -286,6 +286,9 @@ background-color: #fd7964;
 text-transform: uppercase;
 border-radius: 0;
 font-weight: bold;
+color:#fff;
+margin-bottom:50px;
+margin-left: 250px;
 }
 
 .margin-top{
@@ -586,7 +589,7 @@ input::-moz-focus-outer {
 
 @media (max-width:1200px) {
     .aaa{
-      margin-top:25px !important;
+      margin-top:31px !important;
     }
 }
 
@@ -600,4 +603,31 @@ input::-moz-focus-outer {
   #fil1{
     margin-top: 50px;
   }
+}
+@media (max-width:768px){
+  p{
+    font-size: 20px !important;
+  }
+  h6{
+    font-size: 16px !important;
+  }
+  h4{
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width:360px){
+  #container{
+    margin-top: 30px !important;
+  }
+  .navbar-nav{
+    margin: -27.5px 90px;
+  }
+  .btn-md{
+    margin-left: 0px !important;
+  }
+}
+
+.[ie] .card-carousel{
+  margin-bottom: 50px;
 }
