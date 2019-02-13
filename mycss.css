@@ -535,7 +535,7 @@ body {
   background: #2c3e50;
 }
 .range-slider__range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #2c3e50;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px pink;
 }
 
 .range-slider__value {
